@@ -1,10 +1,12 @@
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.Semaphore;
 
 public class EqualsAndHashcode {
     private static class Person{
         int idCard;
         String name;
-
+        Semaphore s = new Semaphore(5);
         public Person(int idCard, String name) {
             this.idCard = idCard;
             this.name = name;
