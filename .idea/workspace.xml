@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0379de39-0755-4a22-8e63-ac33db8531fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IOTest/FileInputStream1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IOTest/FileInputStream2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bingFa/CyclicBarrierT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Deamon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Deamon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOTest/NIO/NIODemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/annotion/AnnotionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/annotion/TestAnnotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/annotion/TestAnnotions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/interfaceDefault/TestSupClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/lambda/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/methodref/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/optional/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/stream/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8/time/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nibaba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nibaba.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/EqualsAndHashcode$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/EqualsAndHashcode$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/EqualsAndHashcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/EqualsAndHashcode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EqualsAndHashcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqualsAndHashcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IOTest/FileInputStream2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IOTest/FileInputStream2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,25 +54,59 @@
     <expand />
     <select />
   </component>
+  <component name="ExportTestResults" outputFolder="$USER_HOME$/Desktop" userTempatePath="" />
   <component name="FavoritesManager">
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream1.java">
+        <entry file="file://$PROJECT_DIR$/src/java8/annotion/TestAnnotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="307">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java8/annotion/TestAnnotions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream2.java">
+        <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/annotation/ElementType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="318">
+              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java8/annotion/AnnotionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Executable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1243">
+              <caret line="577" column="38" selection-start-line="577" selection-start-column="38" selection-end-line="577" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -65,6 +117,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -94,6 +147,8 @@
       <find>put</find>
       <find>get</find>
       <find>forkjoin</find>
+      <find>Asia</find>
+      <find>1.8</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\nibaba\IdeaProjects\test\src\bingFa</dir>
@@ -108,29 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/shejimoshi/bridge/Pencil.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/bridge/Test.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/composite/Folder.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/composite/Test.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/composite/Employee.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/facade/CPU.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/facade/Disk.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/facade/Memory.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/facade/PowerButton.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/facade/Test.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/proxy/Accuser.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/proxy/Attorney.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/decorator/InterFace.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/decorator/InterFaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/decorator/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/decorator/DecoratorImpl.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/duty/Duty.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/duty/DutyImpl.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/command/Aommand.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/command/Receiver.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/command/ReceiverImpl.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/shejimoshi/command/CommandImpl.java" />
         <option value="$PROJECT_DIR$/src/shejimoshi/command/Invoker.java" />
         <option value="$PROJECT_DIR$/src/shejimoshi/command/Test.java" />
         <option value="$PROJECT_DIR$/src/mianShi/Single4.java" />
@@ -158,7 +190,30 @@
         <option value="$PROJECT_DIR$/src/EqualsAndHashcode.java" />
         <option value="$PROJECT_DIR$/src/bingFa/CyclicBarrierT.java" />
         <option value="$PROJECT_DIR$/src/IOTest/FileInputStream1.java" />
+        <option value="$PROJECT_DIR$/IOTest/FileInputStream2.java" />
         <option value="$PROJECT_DIR$/src/IOTest/FileInputStream2.java" />
+        <option value="$USER_HOME$/Desktop/test.java" />
+        <option value="$USER_HOME$/Desktop/IOTest/test.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Loader.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/NIO/NIODemo2.java" />
+        <option value="$PROJECT_DIR$/src/java8/lambda/Test1.java" />
+        <option value="$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Dealer.java" />
+        <option value="$PROJECT_DIR$/src/java8/methodref/Test1.java" />
+        <option value="$PROJECT_DIR$/src/java8/stream/Test1.java" />
+        <option value="$PROJECT_DIR$/src/java8/optional/Test1.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/TestSupClass.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface2.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass2.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/java8/interfaceDefault/Test1.java" />
+        <option value="$PROJECT_DIR$/src/java8/time/Test1.java" />
+        <option value="$PROJECT_DIR$/src/java8/annotion.java" />
+        <option value="$PROJECT_DIR$/src/java8/time/TestAnnotion.java" />
+        <option value="$PROJECT_DIR$/src/java8/annotion/Test.java" />
+        <option value="$PROJECT_DIR$/src/java8/annotion/TestAnnotion.java" />
+        <option value="$PROJECT_DIR$/src/java8/annotion/TestAnnotions.java" />
+        <option value="$PROJECT_DIR$/src/java8/annotion/AnnotionTest.java" />
       </list>
     </option>
   </component>
@@ -174,7 +229,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,31 +239,42 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="annotion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550914526147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551423368540" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/netty-netty-4.1.33.Final" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -238,79 +303,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileInputStream1">
-    <configuration name="CyclicBarrierT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingFa.CyclicBarrierT" />
+  <component name="RunManager" selected="JUnit.AnnotionTest.test1">
+    <configuration name="AnnotionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bingFa.*" />
+          <option name="PATTERN" value="java8.annotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.annotion" />
+      <option name="MAIN_CLASS_NAME" value="java8.annotion.AnnotionTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeatureTaskT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingFa.FeatureTaskT" />
+    <configuration name="Test1.Utc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bingFa.*" />
+          <option name="PATTERN" value="java8.annotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.time" />
+      <option name="MAIN_CLASS_NAME" value="java8.time.Test1" />
+      <option name="METHOD_NAME" value="Utc" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStream1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOTest.FileInputStream1" />
+    <configuration name="Test1.dateTimeFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IOTest.*" />
+          <option name="PATTERN" value="java8.annotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.time" />
+      <option name="MAIN_CLASS_NAME" value="java8.time.Test1" />
+      <option name="METHOD_NAME" value="dateTimeFormat" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingFa.Interrupt" />
+    <configuration name="Test1.testTemporalAdjesters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bingFa.*" />
+          <option name="PATTERN" value="java8.annotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.time" />
+      <option name="MAIN_CLASS_NAME" value="java8.time.Test1" />
+      <option name="METHOD_NAME" value="testTemporalAdjesters" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelComputing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingFa.ParallelComputing" />
+    <configuration name="Test1.uTC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bingFa.*" />
+          <option name="PATTERN" value="java8.annotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.time" />
+      <option name="MAIN_CLASS_NAME" value="java8.time.Test1" />
+      <option name="METHOD_NAME" value="uTC" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileInputStream1" />
-        <item itemvalue="Application.CyclicBarrierT" />
-        <item itemvalue="Application.Interrupt" />
-        <item itemvalue="Application.ParallelComputing" />
-        <item itemvalue="Application.FeatureTaskT" />
+        <item itemvalue="JUnit.AnnotionTest.test1" />
+        <item itemvalue="JUnit.Test1.Utc" />
+        <item itemvalue="JUnit.Test1.uTC" />
+        <item itemvalue="JUnit.Test1.dateTimeFormat" />
+        <item itemvalue="JUnit.Test1.testTemporalAdjesters" />
       </list>
     </recent_temporary>
   </component>
@@ -349,44 +429,51 @@
       <workItem from="1550304093739" duration="9118000" />
       <workItem from="1550368041612" duration="15484000" />
       <workItem from="1550584332444" duration="1110000" />
-      <workItem from="1550913431141" duration="1499000" />
+      <workItem from="1550913431141" duration="5409000" />
+      <workItem from="1550984553102" duration="4455000" />
+      <workItem from="1551079356984" duration="1922000" />
+      <workItem from="1551100364369" duration="2518000" />
+      <workItem from="1551104838848" duration="964000" />
+      <workItem from="1551266149610" duration="8676000" />
+      <workItem from="1551347338209" duration="10187000" />
+      <workItem from="1551416626880" duration="6788000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 42m 18s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_dateTimeFormat - 2019.03.01 at 14h 04m 22s.xml">
+      <configuration name="Test1.dateTimeFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 42m 35s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_uTC - 2019.03.01 at 14h 08m 13s.xml">
+      <configuration name="Test1.uTC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 42m 45s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_Utc - 2019.03.01 at 14h 13m 37s.xml">
+      <configuration name="Test1.Utc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 46m 53s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_Utc - 2019.03.01 at 14h 13m 57s.xml">
+      <configuration name="Test1.Utc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 47m 04s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_uTC - 2019.03.01 at 14h 15m 05s.xml">
+      <configuration name="Test1.uTC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 47m 15s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_Utc - 2019.03.01 at 14h 16m 32s.xml">
+      <configuration name="Test1.Utc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 47m 30s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_uTC - 2019.03.01 at 14h 16m 49s.xml">
+      <configuration name="Test1.uTC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MianShi_autoIncrement2 - 2019.02.07 at 16h 50m 48s.xml">
-      <configuration name="MianShi.autoIncrement2" configurationId="JUnit" />
+    <history-entry file="Test1_Utc - 2019.03.01 at 14h 17m 06s.xml">
+      <configuration name="Test1.Utc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Static_test - 2019.02.12 at 00h 44m 09s.xml">
-      <configuration name="Static.test" configurationId="JUnit" />
+    <history-entry file="Test1_Utc - 2019.03.01 at 14h 21m 58s.xml">
+      <configuration name="Test1.Utc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Static_test - 2019.02.12 at 00h 45m 33s.xml">
-      <configuration name="Static.test" configurationId="JUnit" />
+    <history-entry file="AnnotionTest_test1 - 2019.03.01 at 14h 52m 50s.xml">
+      <configuration name="AnnotionTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118524000" />
+    <option name="totallyTimeSpent" value="157944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,23 +493,22 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
-      <window_info id="Structure" order="5" sideWeight="0.5069444" side_tool="true" visible="true" weight="0.2118003" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49305555" visible="true" weight="0.2118003" />
+      <window_info id="Structure" order="5" sideWeight="0.52459013" side_tool="true" visible="true" weight="0.16111952" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.47540984" visible="true" weight="0.16111952" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29180327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="14" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.36686838" />
@@ -433,6 +519,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info active="true" anchor="right" id="Run" order="10" sideWeight="0.49836066" visible="true" weight="0.22087745" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,215 +552,154 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/io/InputStream.java</url>
+          <line>64</line>
+          <properties class="java.io.InputStream" method="read">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/AbstractList.java">
+    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="70" column="81" lean-forward="true" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingFa/PutGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        <state relative-caret-position="25">
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/IOTest/FileInputStream2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="103" column="15" lean-forward="true" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        <state relative-caret-position="25">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="276" column="29" selection-start-line="276" selection-start-column="29" selection-end-line="276" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Deamon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/nio/channels/Selector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="325" column="19" selection-start-line="325" selection-start-column="19" selection-end-line="325" selection-end-column="19" />
+          <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/nio/channels/SelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/nio/channels/spi/AbstractSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Deamon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1Clint/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding>
-            <element signature="e#25335#25336#0" expanded="true" />
-            <element signature="e#25367#25368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="5524" column="17" selection-start-line="5524" selection-start-column="17" selection-end-line="5524" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Delayed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="135" column="29" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/BlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="199" column="46" lean-forward="true" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="259" column="11" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/LinkedList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9575">
-          <caret line="415" column="5" lean-forward="true" selection-start-line="415" selection-start-column="5" selection-end-line="415" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Deque.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="409" column="13" selection-start-line="409" selection-start-column="13" selection-end-line="409" selection-end-column="13" />
-          <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="465" column="27" lean-forward="true" selection-start-line="465" selection-start-column="27" selection-end-line="465" selection-end-column="27" />
-          <folding>
-            <element signature="e#15015#15016#0" expanded="true" />
-            <element signature="e#15049#15050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="167" column="34" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/LinkedTransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="159" column="31" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/ThreadGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="1775" column="46" selection-start-line="1775" selection-start-column="46" selection-end-line="1775" selection-end-column="46" />
-          <folding>
-            <element signature="e#74431#74432#0" expanded="true" />
-            <element signature="e#74493#74494#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13765">
-          <caret line="165" column="24" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+        <state relative-caret-position="193">
+          <caret line="181" column="23" lean-forward="true" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
           <folding>
             <element signature="e#15704#15705#0" expanded="true" />
             <element signature="e#15770#15771#0" expanded="true" />
@@ -683,214 +709,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="357" column="19" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="1308" column="54" selection-start-line="1308" selection-start-column="30" selection-end-line="1308" selection-end-column="54" />
-          <folding>
-            <element signature="e#19124#19132#0" expanded="true" />
-            <element signature="e#31791#31792#0" expanded="true" />
-            <element signature="e#31834#31835#0" expanded="true" />
-            <element signature="e#60039#60040#0" expanded="true" />
-            <element signature="e#60075#60076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
-          <folding>
-            <element signature="e#15215#15216#0" expanded="true" />
-            <element signature="e#15264#15265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="2534" column="40" lean-forward="true" selection-start-line="2534" selection-start-column="40" selection-end-line="2534" selection-end-column="40" />
-          <folding>
-            <element signature="e#114596#114597#0" expanded="true" />
-            <element signature="e#114678#114679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/RecursiveAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="164" column="37" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
-          <folding>
-            <element signature="e#6228#6229#0" expanded="true" />
-            <element signature="e#6269#6270#0" expanded="true" />
-            <element signature="e#7915#7916#0" expanded="true" />
-            <element signature="e#7953#7954#0" expanded="true" />
-            <element signature="e#9084#9085#0" expanded="true" />
-            <element signature="e#9131#9132#0" expanded="true" />
-            <element signature="e#9671#9672#0" expanded="true" />
-            <element signature="e#9749#9750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EqualsAndHashcode.java">
+    <entry file="file://$PROJECT_DIR$/src/bingFa/ThreadLocalT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="147" column="18" lean-forward="true" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingFa/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="356" column="7" lean-forward="true" selection-start-line="356" selection-start-column="7" selection-end-line="356" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="2069" column="15" selection-start-line="2069" selection-start-column="15" selection-end-line="2069" selection-end-column="15" />
-          <folding>
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2840">
-          <caret line="107" column="62" lean-forward="true" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
-          <folding>
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingFa/CyclicBarrierT.java">
+    <entry file="file://$PROJECT_DIR$/src/java8/lambda/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOTest/NIO/NIODemo1/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CyclicBarrier.java">
+    <entry file="file://$PROJECT_DIR$/src/java8/methodref/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="93" column="62" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
           <folding>
-            <element signature="e#9805#9806#0" expanded="true" />
-            <element signature="e#9835#9836#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serch/Serch.java">
+    <entry file="file://$PROJECT_DIR$/src/java8/StrwamTest.java" />
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="43">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serch/InsertionSearch.java">
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="543">
+          <caret line="764" column="55" lean-forward="true" selection-start-line="764" selection-start-column="55" selection-end-line="764" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOTest/FileInputStream1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/io/File.java">
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="274" column="27" selection-start-line="274" selection-start-column="27" selection-end-line="274" selection-end-column="27" />
+          <caret line="509" column="67" selection-start-line="509" selection-start-column="67" selection-end-line="509" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/io/OutputStream.java">
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="111" column="30" lean-forward="true" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+        <state relative-caret-position="185">
+          <caret line="803" column="61" lean-forward="true" selection-start-line="803" selection-start-column="61" selection-end-line="803" selection-end-column="61" />
+          <folding>
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream1.java">
+    <entry file="file://$PROJECT_DIR$/src/java8/stream/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="507">
+          <caret line="94" column="42" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOTest/FileInputStream2.java">
+    <entry file="file://$PROJECT_DIR$/src/java8/optional/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/TestSupClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/TestSubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="701" column="42" selection-start-line="701" selection-start-column="42" selection-end-line="701" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/temporal/TemporalAdjuster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/time/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/interfaceDefault/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/time/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/annotion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/annotion/TestAnnotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="268" column="17" selection-start-line="268" selection-start-column="14" selection-end-line="268" selection-end-column="17" />
+          <folding>
+            <element signature="e#5896#5897#0" expanded="true" />
+            <element signature="e#5930#5931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1243">
+          <caret line="577" column="38" selection-start-line="577" selection-start-column="38" selection-end-line="577" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/annotion/AnnotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java8/annotion/TestAnnotions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ruanjian/Java/jdk1.8.0_161/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="14" />
         </state>
       </provider>
     </entry>
